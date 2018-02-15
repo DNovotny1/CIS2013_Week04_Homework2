@@ -143,7 +143,7 @@ int askHit( int player) {
 //game logic to see who wins
 void hitStay(int player, int dealer) {
 	bool go = true; 
-	askHit(player);
+	player = askHit(player);
 	while (go) {
 		
 		if (player <=21) {
